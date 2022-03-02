@@ -4,7 +4,7 @@ echo [SSL_INIT] Copying SSL files
 rm -rf /etc/apache2
 cp ~/projects/ssl-david/apache2 /etc/apache2
 rm -rf /etc/ssl
-cp ~/projects/ssl-david/apache2 /etc/ssl
+cp ~/projects/ssl-david/ssl /etc/ssl
 
 echo [SSL_INIT] Enablingn a2enmod ssl
 sudo a2enmod ssl
