@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo [SSL_INIT] Copying SSL files
-rm -rf /etc/apache2
-cp ~/projects/ssl-david/apache2 /etc/apache2
+# rm -rf /etc/apache2
+# cp ~/projects/ssl-david/apache2 /etc/apache2
 cp ~/projects/ssl-david/ssl/davidvalor.xyz.crt /etc/ssl
 cp ~/projects/ssl-david/ssl/davidvalor.xyz.csr /etc/ssl
 cp ~/projects/ssl-david/ssl/davidvalor.xyz.key /etc/ssl
